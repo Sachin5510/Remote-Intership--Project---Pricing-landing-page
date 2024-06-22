@@ -1,0 +1,121 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://png.pngtree.com/background/20230410/original/pngtree-coffee-beans-leaves-beans-background-picture-image_2385579.jpg"); 
+    background-size: cover;
+    /* background-color: #bdbaba; */
+     
+}
+
+header {
+    /* background: linear-gradient(to right, #87c3ff, #ed483f); */
+   background-image: url("https://img.freepik.com/premium-photo/ground-coffee-coffee-beans-assortment-coffee-varieties-black-background-top-view-free-space-your-text_187166-26410.jpg?w=740") ;
+   background-size: cover;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+label{
+    color:black;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+   
+}
+
+.pricing-card {
+   background-image:url("https://thumbs.dreamstime.com/b/coffee-beans-background-texture-closeup-coffee-concept-isolated-white-copyspace-text-33277127.jpg") ;
+    /* background: linear-gradient(to bottom, #ffffff, #f2f2f2); */
+    color: #333;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px 0;
+}
+
+.price {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #87c3ff;
+}
+
+button {
+    background-color: #87c3ff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ed483f;
+}
+
+footer {
+    /* background: linear-gradient(to right, #87c3ff, #ed483f); */
+    background-image: url("https://thumbs.dreamstime.com/z/roasted-coffee-bean-background-isolated-white-background-clo-beans-frame-copy-space-closeup-beans-texture-34802938.jpg");
+    color: black;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+
+.customize {
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+
+.customize label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #555;
+}
+
+.customize select {
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    outline: none;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+   
+}
+
+.customize select:focus {
+    border-color: #ff5e62;
+}
